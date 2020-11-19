@@ -1,0 +1,12 @@
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.deps.json
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.pdb
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csprojAssemblyReference.cache
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.AssemblyInfoInputs.cache
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.AssemblyInfo.cs
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CopyComplete
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.dll
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb

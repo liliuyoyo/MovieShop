@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "721uCvO6aqBx+yWDcwyR/zxvCdJCB9GYgpwK8728OLocTcZT8JhFWC1H3G5nefo86+69a8MY/h2/rYanUqBZ9Q==",
+  "success": true,
+  "projectFilePath": "/Users/liyooo/RiderProjects/MovieShop/MovieShop.Core/MovieShop.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/liyooo/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
