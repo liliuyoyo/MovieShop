@@ -7,7 +7,20 @@
       <e p="MovieShop.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entities" t="Include">
+          <e p="Cast.cs" t="Include" />
+          <e p="Crew.cs" t="Include" />
+          <e p="Favorite.cs" t="Include" />
           <e p="Genre.cs" t="Include" />
+          <e p="Movie.cs" t="Include" />
+          <e p="MovieCast.cs" t="Include" />
+          <e p="MovieCrew.cs" t="Include" />
+          <e p="MovieGenre.cs" t="Include" />
+          <e p="Purchase.cs" t="Include" />
+          <e p="Review.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
+          <e p="Trailer.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserRole.cs" t="Include" />
         </e>
         <e p="Exceptions" t="Include" />
         <e p="Helpers" t="Include" />
@@ -30,6 +43,42 @@
         <e p="Migrations" t="Include">
           <e p="20201119003528_InitialMigration.cs" t="Include" />
           <e p="20201119003528_InitialMigration.Designer.cs" t="Include" />
+          <e p="20201119190652_CreateMoiveTable.cs" t="Include" />
+          <e p="20201119190652_CreateMoiveTable.Designer.cs" t="Include" />
+          <e p="20201119193402_CreateTrailerTable.cs" t="Include" />
+          <e p="20201119193402_CreateTrailerTable.Designer.cs" t="Include" />
+          <e p="20201119195722_CreateGenreMovieTable.cs" t="Include" />
+          <e p="20201119195722_CreateGenreMovieTable.Designer.cs" t="Include" />
+          <e p="20201119201007_CreateCastTable.cs" t="Include" />
+          <e p="20201119201007_CreateCastTable.Designer.cs" t="Include" />
+          <e p="20201119202532_CreateMovieCastTable.cs" t="Include" />
+          <e p="20201119202532_CreateMovieCastTable.Designer.cs" t="Include" />
+          <e p="20201119204143_CreateCrewTable.cs" t="Include" />
+          <e p="20201119204143_CreateCrewTable.Designer.cs" t="Include" />
+          <e p="20201119205616_DropMovieCastTable.cs" t="Include" />
+          <e p="20201119205616_DropMovieCastTable.Designer.cs" t="Include" />
+          <e p="20201119210054_CreateRoleTable.cs" t="Include" />
+          <e p="20201119210054_CreateRoleTable.Designer.cs" t="Include" />
+          <e p="20201119211506_CreateUserTable.cs" t="Include" />
+          <e p="20201119211506_CreateUserTable.Designer.cs" t="Include" />
+          <e p="20201119211704_AlterUserTable.cs" t="Include" />
+          <e p="20201119211704_AlterUserTable.Designer.cs" t="Include" />
+          <e p="20201119212427_CreateReviewTable.cs" t="Include" />
+          <e p="20201119212427_CreateReviewTable.Designer.cs" t="Include" />
+          <e p="20201119212853_DropGenreMovieTable.cs" t="Include" />
+          <e p="20201119212853_DropGenreMovieTable.Designer.cs" t="Include" />
+          <e p="20201119214519_CreateMovieGenreTable.cs" t="Include" />
+          <e p="20201119214519_CreateMovieGenreTable.Designer.cs" t="Include" />
+          <e p="20201119215441_CreateMovieCastTable1.cs" t="Include" />
+          <e p="20201119215441_CreateMovieCastTable1.Designer.cs" t="Include" />
+          <e p="20201119220725_CreateMovieCrewTable.cs" t="Include" />
+          <e p="20201119220725_CreateMovieCrewTable.Designer.cs" t="Include" />
+          <e p="20201119221707_CreateUserRoleTable.cs" t="Include" />
+          <e p="20201119221707_CreateUserRoleTable.Designer.cs" t="Include" />
+          <e p="20201119222700_CreateFavoriteTable.cs" t="Include" />
+          <e p="20201119222700_CreateFavoriteTable.Designer.cs" t="Include" />
+          <e p="20201119223811_CreatePurchaseTable.cs" t="Include" />
+          <e p="20201119223811_CreatePurchaseTable.Designer.cs" t="Include" />
           <e p="MovieShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="MovieShop.Infrastructure.csproj" t="IncludeRecursive" />
