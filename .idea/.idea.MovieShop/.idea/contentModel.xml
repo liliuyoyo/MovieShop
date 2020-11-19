@@ -79,6 +79,10 @@
           <e p="20201119222700_CreateFavoriteTable.Designer.cs" t="Include" />
           <e p="20201119223811_CreatePurchaseTable.cs" t="Include" />
           <e p="20201119223811_CreatePurchaseTable.Designer.cs" t="Include" />
+          <e p="20201119231712_DropReviewTable.cs" t="Include" />
+          <e p="20201119231712_DropReviewTable.Designer.cs" t="Include" />
+          <e p="20201119233524_CreateReviewTable1.cs" t="Include" />
+          <e p="20201119233524_CreateReviewTable1.Designer.cs" t="Include" />
           <e p="MovieShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="MovieShop.Infrastructure.csproj" t="IncludeRecursive" />

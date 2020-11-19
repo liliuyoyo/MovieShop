@@ -18,13 +18,27 @@ namespace MovieShop.Infrastructure.Data
             modelBuilder.Entity<Crew>(ConfigureCrew);
             modelBuilder.Entity<Role>(ConfigureRole);
             modelBuilder.Entity<User>(ConfigureUser);
-            modelBuilder.Entity<Review>(ConfigureReview);
             modelBuilder.Entity<MovieGenre>(ConfigureMovieGenre);
             modelBuilder.Entity<MovieCast>(ConfigureMovieCast);
             modelBuilder.Entity<MovieCrew>(ConfigureMovieCrew);
             modelBuilder.Entity<UserRole>(ConfigureUserRole);
             modelBuilder.Entity<Favorite>(ConfigureFavorite);
             modelBuilder.Entity<Purchase>(ConfigurePurchase);
+            modelBuilder.Entity<Review>(ConfigureReview);
+        }
+
+        private void ConfigureReview(EntityTypeBuilder<Review> builder)
+        {
+            builder.ToTable("Review");
+            builder.HasKey(r => new {r.MovieId, r.UserId});
+            builder.Property(r => r.Rating).HasPrecision(3, 2);
+            builder.HasOne(r => r.Movie)
+                .WithMany(m => m.Reviews)
+                .HasForeignKey(r => r.MovieId);
+            builder.HasOne(r => r.User)
+                .WithMany(u => u.Reviews)
+                .HasForeignKey(r => r.UserId);
+            builder.HasIndex(r => new {r.MovieId, r.UserId});
         }
 
         private void ConfigurePurchase(EntityTypeBuilder<Purchase> builder)
@@ -104,12 +118,6 @@ namespace MovieShop.Infrastructure.Data
                 .HasForeignKey(mg => mg.GenreId);
         }
 
-        private void ConfigureReview(EntityTypeBuilder<Review> builder)
-        {
-            builder.ToTable("Review");
-            builder.HasKey(r => new {r.MovieId, r.UserId});
-            builder.Property(r => r.Rating).HasPrecision(3, 2);
-        }
 
         private void ConfigureUser(EntityTypeBuilder<User> builder)
         {
@@ -177,12 +185,12 @@ namespace MovieShop.Infrastructure.Data
         public DbSet<Crew> Crews { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Review> Reviews { get; set; }
         public DbSet<MovieGenre> MovieGenres { get; set; }
         public DbSet<MovieCast> MovieCasts { get; set; }
         public DbSet<MovieCrew> MovieCrews { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<Review> Reviews { get; set; }
     }
 }

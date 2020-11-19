@@ -23,61 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed287e5-bd92-46d1-9a36-8439c0ac95bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Cast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Crew.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Favorite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/MovieCast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/MovieCrew.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/MovieGenre.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Purchase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Review.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Trailer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/UserRole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119190652_CreateMoiveTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119190652_CreateMoiveTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119193402_CreateTrailerTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119193402_CreateTrailerTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119195722_CreateGenreMovieTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119195722_CreateGenreMovieTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119201007_CreateCastTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119201007_CreateCastTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119202532_CreateMovieCastTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119202532_CreateMovieCastTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119204143_CreateCrewTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119204143_CreateCrewTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119205616_DropMovieCastTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119205616_DropMovieCastTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119210054_CreateRoleTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119210054_CreateRoleTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119211506_CreateUserTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119211506_CreateUserTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119211704_AlterUserTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119211704_AlterUserTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119212427_CreateReviewTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119212427_CreateReviewTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119212853_DropGenreMovieTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119212853_DropGenreMovieTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119214519_CreateMovieGenreTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119214519_CreateMovieGenreTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119215441_CreateMovieCastTable1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119215441_CreateMovieCastTable1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119220725_CreateMovieCrewTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119220725_CreateMovieCrewTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119221707_CreateUserRoleTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119221707_CreateUserRoleTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119222700_CreateFavoriteTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119222700_CreateFavoriteTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119223811_CreatePurchaseTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119223811_CreatePurchaseTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119231712_DropReviewTable.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Migrations/20201119231712_DropReviewTable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Entities/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Genre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
@@ -99,7 +52,6 @@
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/MovieShop.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/bin/Debug/net5.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.csprojAssemblyReference.cache" afterDir="false" />
@@ -133,8 +85,8 @@
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Role.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Favorite.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Purchase.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/User.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/User.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" />
       </list>
     </option>
@@ -196,8 +148,17 @@
       <option name="presentableId" value="Default" />
       <updated>1605742237669</updated>
       <workItem from="1605742250666" duration="6089000" />
-      <workItem from="1605812503497" duration="12285000" />
+      <workItem from="1605812503497" duration="12734000" />
+      <workItem from="1605827485029" duration="1211000" />
     </task>
+    <task id="LOCAL-00001" summary="Create tables with entity framework and fluent API.">
+      <created>1605825743976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605825743977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +174,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -220,6 +182,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Create tables with entity framework and fluent API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tables with entity framework and fluent API." />
   </component>
   <component name="WindowStateProjectService">
     <state x="701" y="404" width="480" height="192" key="Github.ShareDialog" timestamp="1605748783754">
@@ -238,6 +202,10 @@
       <screen x="0" y="23" width="1920" height="993" />
     </state>
     <state x="335" y="139" key="SettingsEditor/0.23.1920.993/-1440.23.1440.877@0.23.1920.993" timestamp="1605748578614" />
+    <state x="513" y="241" key="Vcs.Push.Dialog.v2" timestamp="1605825861151">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="513" y="241" key="Vcs.Push.Dialog.v2/0.23.1920.993/-1440.23.1440.877@0.23.1920.993" timestamp="1605825861151" />
     <state x="-1131" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605813946490">
       <screen x="-1440" y="23" width="1440" height="877" />
     </state>
