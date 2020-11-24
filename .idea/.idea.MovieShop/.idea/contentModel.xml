@@ -32,8 +32,17 @@
             </e>
           </e>
         </e>
-        <e p="RepositoryInterfaces" t="Include" />
-        <e p="ServiceInterfaces" t="Include" />
+        <e p="RepositoryInterfaces" t="Include">
+          <e p="IAsyncRepository.cs" t="Include" />
+          <e p="IMovieRepository.cs" t="Include" />
+          <e p="IPurchaseRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
+        <e p="ServiceInterfaces" t="Include">
+          <e p="ICastService.cs" t="Include" />
+          <e p="IGenreService.cs" t="Include" />
+          <e p="IMovieService.cs" t="Include" />
+        </e>
       </e>
       <e p="MovieShop.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -93,8 +102,15 @@
             </e>
           </e>
         </e>
-        <e p="Repositories" t="Include" />
-        <e p="Services" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="EfRepository.cs" t="Include" />
+          <e p="MovieRepository.cs" t="Include" />
+          <e p="PurchaseRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="GenreService.cs" t="Include" />
+        </e>
       </e>
       <e p="MovieShop.sln" t="IncludeFlat" />
       <e p="MovieShop.Web" t="IncludeRecursive">

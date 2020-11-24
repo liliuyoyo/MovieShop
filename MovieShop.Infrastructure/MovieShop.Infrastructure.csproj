@@ -5,11 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repositories" />
-      <Folder Include="Services" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\MovieShop.Core\MovieShop.Core.csproj" />
     </ItemGroup>
 
