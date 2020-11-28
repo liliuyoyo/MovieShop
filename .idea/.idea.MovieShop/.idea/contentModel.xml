@@ -24,6 +24,19 @@
         </e>
         <e p="Exceptions" t="Include" />
         <e p="Helpers" t="Include" />
+        <e p="Models" t="Include">
+          <e p="PagedResultSet.cs" t="Include" />
+          <e p="PaginatedList.cs" t="Include" />
+          <e p="Request" t="Include">
+            <e p="MovieCreateRequest.cs" t="Include" />
+          </e>
+          <e p="Response" t="Include">
+            <e p="CastDetailsResponseModel.cs" t="Include" />
+            <e p="MovieDetailsResponseModel.cs" t="Include" />
+            <e p="MovieResponseModel.cs" t="Include" />
+            <e p="ReviewMovieResponseModel.cs" t="Include" />
+          </e>
+        </e>
         <e p="MovieShop.Core.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -110,6 +123,7 @@
         </e>
         <e p="Services" t="Include">
           <e p="GenreService.cs" t="Include" />
+          <e p="MovieService.cs" t="Include" />
         </e>
       </e>
       <e p="MovieShop.sln" t="IncludeFlat" />
@@ -146,7 +160,14 @@
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_MovieCard.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Components" t="Include">
+              <e p="GenresViewComponents" t="Include">
+                <e p="Default.cshtml" t="Include" />
+                <e p="GenresViewComponents.cs" t="Include" />
+              </e>
+            </e>
             <e p="Error.cshtml" t="Include" />
           </e>
         </e>

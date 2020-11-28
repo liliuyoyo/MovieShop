@@ -71,3 +71,5 @@
 /Users/liyooo/RiderProjects/MovieShop/MovieShop.Web/obj/Debug/net5.0/ref/MovieShop.Web.dll
 /Users/liyooo/RiderProjects/MovieShop/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.pdb
 /Users/liyooo/RiderProjects/MovieShop/MovieShop.Web/obj/Debug/net5.0/MovieShop.Web.genruntimeconfig.cache
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Web/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
+/Users/liyooo/RiderProjects/MovieShop/MovieShop.Web/obj/Debug/net5.0/Razor/Views/Shared/Components/GenresViewComponents/Default.cshtml.g.cs
