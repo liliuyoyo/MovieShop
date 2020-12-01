@@ -42,6 +42,9 @@ namespace MovieShop.Web
 
             services.AddScoped<ICastService, CastService>();
             services.AddScoped<IAsyncRepository<Cast>, CastRepository>();
+
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

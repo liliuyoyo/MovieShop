@@ -28,13 +28,22 @@
           <e p="PagedResultSet.cs" t="Include" />
           <e p="PaginatedList.cs" t="Include" />
           <e p="Request" t="Include">
+            <e p="FavoriteRequestModel.cs" t="Include" />
             <e p="MovieCreateRequest.cs" t="Include" />
+            <e p="PurchaseRequestModel.cs" t="Include" />
+            <e p="ReviewRequestModel.cs" t="Include" />
+            <e p="UserRegisterRequestModel.cs" t="Include" />
           </e>
           <e p="Response" t="Include">
             <e p="CastDetailsResponseModel.cs" t="Include" />
+            <e p="FavoriteResponseModel.cs" t="Include" />
             <e p="MovieDetailsResponseModel.cs" t="Include" />
             <e p="MovieResponseModel.cs" t="Include" />
+            <e p="PurchaseResponseModel.cs" t="Include" />
             <e p="ReviewMovieResponseModel.cs" t="Include" />
+            <e p="ReviewResponseModel.cs" t="Include" />
+            <e p="UserLoginResponseModel.cs" t="Include" />
+            <e p="UserRegisterResponseModel.cs" t="Include" />
           </e>
         </e>
         <e p="MovieShop.Core.csproj" t="IncludeRecursive" />
@@ -55,6 +64,7 @@
           <e p="ICastService.cs" t="Include" />
           <e p="IGenreService.cs" t="Include" />
           <e p="IMovieService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
         </e>
       </e>
       <e p="MovieShop.Infrastructure" t="IncludeRecursive">
@@ -116,14 +126,17 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="CastRepository.cs" t="Include" />
           <e p="EfRepository.cs" t="Include" />
           <e p="MovieRepository.cs" t="Include" />
           <e p="PurchaseRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="CastService.cs" t="Include" />
           <e p="GenreService.cs" t="Include" />
           <e p="MovieService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
       </e>
       <e p="MovieShop.sln" t="IncludeFlat" />
@@ -132,6 +145,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -154,6 +168,10 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />

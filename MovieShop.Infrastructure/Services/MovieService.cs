@@ -71,32 +71,27 @@ namespace MovieShop.Infrastructure.Services
             throw new System.NotImplementedException();
         }
 
-        public Task<int> GetMoviesCount(string title = "")
+        public async Task<int> GetMoviesCount(string title = "")
         {
-            throw new System.NotImplementedException();
+            return await _repository.GetCountAsync(m => m.Title.Contains(title));
         }
 
-        public Task<IEnumerable<MovieResponseModel>> GetTopRatedMovies()
+        public async Task<IEnumerable<MovieResponseModel>> GetTopRatedMovies()
         {
-            throw new System.NotImplementedException();
+            var movies = await _repository.GetTopRatedMovies();
+            return MovieMapper(movies);
         }
 
         public async Task<IEnumerable<MovieResponseModel>> GetHighestGrossingMovies()
         {
             var movies = await _repository.GetHighestRevenueMovies();
-            var movieResponseModels = new List<MovieResponseModel>();
-            foreach (var movie in movies)
-            {
-                movieResponseModels.Add(new MovieResponseModel{
-                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate
-                });
-            }
-            return movieResponseModels;
+            return MovieMapper(movies);
         }
 
-        public Task<IEnumerable<MovieResponseModel>> GetMoviesByGenre(int genreId)
+        public async Task<IEnumerable<MovieResponseModel>> GetMoviesByGenre(int genreId)
         {
-            throw new System.NotImplementedException();
+            var movies = await _repository.GetMoviesByGenre(genreId);
+            return MovieMapper(movies);
         }
 
         public Task<MovieDetailsResponseModel> CreateMovie(MovieCreateRequest movieCreateRequest)
@@ -107,6 +102,19 @@ namespace MovieShop.Infrastructure.Services
         public Task<MovieDetailsResponseModel> UpdateMovie(MovieCreateRequest movieCreateRequest)
         {
             throw new System.NotImplementedException();
+        }
+
+        private List<MovieResponseModel> MovieMapper(IEnumerable<Movie> movies)
+        {
+            var movieResponseModels = new List<MovieResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieResponseModels.Add(new MovieResponseModel{
+                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate
+                });
+            }
+            return movieResponseModels;
+            
         }
     }
 }
